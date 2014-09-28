@@ -1,5 +1,7 @@
 sub2srt  - Convert subtitles from ".sub" to subviewer ".srt" format
 
+Converted for Popcorntime.io by Lovsan - free to use!
+
 
 (c) 2003-2005 Roland "Robelix" Obermayer <roland\@robelix.com>
 Project Homepage: http://www.robelix.com/sub2srt/
@@ -15,7 +17,7 @@ Use it at your own risk! It works fine with several files I've got, but
 it may fail with your's.
 It's a quick hack written without any docs about the file formats - I
 just had a look how the files look like.
-Please report bugs, problems, patches... to sub2srt@robelix.com
+Please report bugs, problems, patches... to sub2srt@robelix.com or lovster6@gmail.com
 
 
 What it does not:
@@ -38,7 +40,7 @@ Run sub2srt --help to get more info.
 
 Requirements:
 -------------
-Perl
+Javascript / Node JS *version*
 
 
 License:
@@ -48,6 +50,11 @@ Have a look to the file COPYING included in the archive.
 
 
 Changelog:
+----------
+Conversion to Javascript started 28 sep 2014: Lovsey
+- sub2srt-popcorntime plugin 0.1
+- conversion started
+
 ----------
 02 Nov 2013: Krzysztof Trybowski
  * sub2srt-0.5.4
